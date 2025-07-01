@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #e0f7fa;
+  background: #ffe6f0; /* pink soft */
   margin: 0;
   padding: 20px;
 }
 
 h1 {
-  color: #00796b;
+  color: #d81b60; /* pink gelap */
 }
 
 .container {
@@ -19,31 +19,33 @@ h1 {
 }
 
 .dropzone {
-  background-color: #ffffff;
+  background-color: #fff0f5; /* lavender blush */
   padding: 15px;
   width: 250px;
   min-height: 300px;
-  border: 2px dashed #00796b;
+  border: 2px dashed #ec407a; /* pink border */
   border-radius: 10px;
 }
 
 .item {
-  background-color: #80deea;
+  background-color: #f48fb1; /* pink terang */
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;
   cursor: grab;
+  color: white;
+  font-weight: bold;
 }
 
 .item:hover {
-  background-color: #4dd0e1;
+  background-color: #f06292; /* lebih gelap saat hover */
 }
 
 button {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #00796b;
+  background-color: #ec407a; /* pink utama */
   color: white;
   border: none;
   border-radius: 5px;
@@ -53,22 +55,22 @@ button {
 #toggle-music {
   display: block;
   margin: 20px auto;
-  background-color: #004d40;
+  background-color: #ad1457; /* pink tua */
 }
 
 #result {
   font-weight: bold;
   margin-top: 15px;
-  color: #00796b;
+  color: #ad1457;
 }
 
 footer {
   margin-top: 30px;
   padding: 10px;
-  background-color: #b2dfdb;
-  color: #004d40;
+  background-color: #f8bbd0; /* pink pastel */
+  color: #880e4f;
   font-size: 14px;
-  border-top: 2px solid #00796b;
+  border-top: 2px solid #ec407a;
 }
 
 .heart {
