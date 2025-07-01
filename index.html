@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Siklus Air</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Susun Urutan Siklus Air</h1>
+  <div class="container">
+    <div id="choices" class="dropzone">
+      <p><strong>Tarik proses ke urutan yang benar:</strong></p>
+      <div class="item" draggable="true" id="penguapan">1. Penguapan</div>
+      <div class="item" draggable="true" id="kondensasi">2. Kondensasi</div>
+      <div class="item" draggable="true" id="presipitasi">3. Presipitasi (Hujan)</div>
+      <div class="item" draggable="true" id="infiltrasi">4. Infiltrasi</div>
+    </div>
+
+    <div id="target" class="dropzone">
+      <p><strong>Susunan Anda:</strong></p>
+    </div>
+  </div>
+  
+  <button onclick="cekJawaban()">Cek Jawaban</button>
+  <p id="result"></p>
+
+  <audio id="bg-music" loop>
+    <source src="musik.mp3" type="audio/mpeg">
+    Browser Anda tidak mendukung audio.
+  </audio>
+
+  <button id="toggle-music">Nyalakan Musik</button>
+
+  <footer>
+    <p>Aplikasi ini dibuat oleh <strong>Cindy Weka Wulandari</strong> dengan 
+      <span class="heart">❤️</span>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
