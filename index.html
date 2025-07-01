@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Game Siklus Air</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <h1>Susun Urutan Siklus Air</h1>
   <div class="container">
     <div id="choices" class="dropzone">
-      <p><strong>Tarik proses ke urutan yang benar:</strong></p>
+      <p><strong>Tarik atau ketuk proses ke urutan yang benar:</strong></p>
       <div class="item" draggable="true" id="penguapan">1. Penguapan</div>
       <div class="item" draggable="true" id="kondensasi">2. Kondensasi</div>
       <div class="item" draggable="true" id="presipitasi">3. Presipitasi (Hujan)</div>
@@ -21,7 +22,7 @@
       <p><strong>Susunan Anda:</strong></p>
     </div>
   </div>
-  
+
   <button onclick="cekJawaban()">Cek Jawaban</button>
   <p id="result"></p>
 
